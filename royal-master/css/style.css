@@ -3601,4 +3601,193 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---------------------------------------------------- */
 
+/* ====================================================================
+   ROYAL FLIGHTS — THEME OVERRIDE
+   Nova paleta: azul aviação (#0077cc) + hover (#005fa3)
+   Substitui o amarelo (#f3c300) e adiciona efeitos visuais modernos.
+   ==================================================================== */
+
+/* --- Navbar: transparência + blur + sombra --- */
+.header_area .navbar {
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  transition: background 0.3s ease;
+}
+
+/* --- Navbar brand texto --- */
+.navbar-brand.logo_h {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0a1628 !important;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.navbar-brand.logo_h:hover {
+  color: #0077cc !important;
+}
+.navbar-brand.logo_h .brand-icon {
+  font-size: 24px;
+  color: #0077cc;
+}
+
+/* --- Links de nav: hover e active em azul --- */
+.navbar .menu_nav .nav-item:hover .nav-link,
+.navbar .menu_nav .nav-item.active .nav-link {
+  color: #0077cc;
+}
+
+/* --- Header top: hover azul --- */
+.header-top a:hover,
+.header-top .header-top-right .header-social a:hover {
+  color: #0077cc;
+}
+
+/* --- Botões principais: amarelo → azul --- */
+.theme_btn {
+  background: #0077cc;
+}
+.theme_btn:before {
+  background: #005fa3;
+}
+.theme_btn:hover {
+  color: #fff;
+  background: #005fa3;
+}
+
+/* --- Botão secundário --- */
+.theme_btn_two {
+  background: #0077cc;
+}
+.theme_btn_two:before {
+  background: #005fa3;
+}
+
+/* --- Booking area botão --- */
+.book_now_btn {
+  background: #0077cc;
+}
+.book_now_btn:hover {
+  background: #005fa3;
+}
+
+/* --- FIX: Botão "Comprar Passagem" cortado nos cards --- */
+.accomodation_item .hotel_img .theme_btn {
+  max-width: none;
+  white-space: nowrap;
+  padding: 5px 18px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+/* --- Cards de voo: sombra, arredondamento, hover lift --- */
+.accomodation_item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.accomodation_item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 28px rgba(0, 119, 204, 0.15);
+}
+.accomodation_item .hotel_img {
+  border-radius: 12px 12px 0 0;
+}
+
+/* --- Preço nos cards: azul --- */
+.accomodation_item h5 {
+  color: #0077cc;
+}
+
+/* --- Seção "Ofertas" título --- */
+.title_color {
+  color: #0a1628;
+}
+
+/* --- Facilidades: ícones azuis --- */
+.facilities_item h4 i {
+  color: #0077cc;
+}
+
+/* --- Testimonial: estrelas em azul --- */
+.testimonial_item .star a {
+  color: #0077cc;
+}
+
+/* --- Blog: links e datas em azul --- */
+.blog_item .blog_details a:hover {
+  color: #0077cc;
+}
+.blog_item .blog_details .date {
+  color: #0077cc;
+}
+
+/* --- Footer: azul-marinho profundo --- */
+.footer-area {
+  background: #0a1628;
+}
+.single-footer-widget ul li a:hover {
+  color: #0077cc;
+}
+.single-footer-widget .sub-btn {
+  background: #0077cc;
+}
+.single-footer-widget .sub-btn:hover {
+  background: #005fa3;
+}
+.footer-bottom .footer-text a {
+  color: #0077cc;
+}
+.footer-bottom .footer-social a:hover {
+  color: #0077cc;
+}
+
+/* --- Breadcrumb/page cover: overlay com tom azul --- */
+.breadcrumb_area {
+  position: relative;
+}
+.breadcrumb_area::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 119, 204, 0.15), rgba(10, 22, 40, 0.3));
+  pointer-events: none;
+  z-index: 1;
+}
+.breadcrumb_area .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* --- Seção de booking: fundo com leve transparência --- */
+.hotel_booking_area {
+  background: rgba(10, 22, 40, 0.95);
+}
+
+/* --- Dropdown menu: borda azul sutil --- */
+@media (min-width: 992px) {
+  .navbar .menu_nav .nav-item.submenu ul {
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-top: 2px solid #0077cc;
+  }
+}
+
+/* --- Elementos de formulário: borda focus azul --- */
+.single-footer-widget input:focus {
+  border-color: #0077cc;
+}
+
+/* ====================================================================
+   FIM DO OVERRIDE — ROYAL FLIGHTS
+   ==================================================================== */
+
 /*# sourceMappingURL=style.css.map */

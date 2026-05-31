@@ -5,7 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="image/favicon.png" type="image/png">
-        <title>Royal Hotel</title>
+        <title>Royal Flights | Passagens Aéreas Nacionais e Internacionais</title>
+        <meta name="description" content="Busque, compare e compre passagens aéreas baratas para voos nacionais e internacionais com a Royal Flights. Melhores ofertas e tarifas com compra 100% segura.">
+        <meta name="keywords" content="passagens aéreas, voos baratos, passagens promocionais, voar barato, passagens nacionais, passagens internacionais, Royal Flights">
+        <meta name="author" content="Royal Flights">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -24,7 +27,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.html"><img src="image/Logo.png" alt=""></a>
+                    <a class="navbar-brand logo_h" href="index.html"><span class="brand-icon">✈</span> Royal Flights</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -34,18 +37,18 @@
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
-                            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nós</a></li>
+                            <li class="nav-item"><a class="nav-link" href="accomodation.html">Passagens</a></li>
+                            <li class="nav-item"><a class="nav-link" href="gallery.html">Destinos</a></li>
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-single.html">Detalhes do Blog</a></li>
                                 </ul>
                             </li> 
-                            <li class="nav-item"><a class="nav-link" href="elements.html">Elemests</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="elements.html">Elementos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
                         </ul>
                     </div> 
                 </nav>
@@ -59,18 +62,18 @@
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
-						<h6>Away from monotonous life</h6>
-						<h2>Relax Your Mind</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the<br> difference in price. You may see some for as low as $.17 each.</p>
-						<a href="#" class="btn theme_btn button_hover">Get Started</a>
+						<h6>Deixe a rotina para trás</h6>
+						<h2>Encontre sua próxima viagem</h2>
+						<p>Compare as melhores ofertas de passagens aéreas nacionais e internacionais.<br>Encontre voos que se adaptam ao seu orçamento e planeje sua viagem com praticidade.</p>
+						<a href="#booking-form" class="btn theme_btn button_hover">Buscar Voos</a>
 					</div>
 				</div>
             </div>
-            <div class="hotel_booking_area position">
+            <div class="hotel_booking_area position" id="booking-form">
                 <div class="container">
                     <div class="hotel_booking_table">
                         <div class="col-md-3">
-                            <h2>Book<br> Your Room</h2>
+                            <h2>Buscar<br> Passagens</h2>
                         </div>
                         <div class="col-md-9">
                             <div class="boking_table">
@@ -79,7 +82,7 @@
                                         <div class="book_tabel_item">
                                             <div class="form-group">
                                                 <div class='input-group date' id='datetimepicker11'>
-                                                    <input type='text' class="form-control" placeholder="Arrival Date"/>
+                                                    <input type='text' class="form-control" placeholder="Data de ida"/>
                                                     <span class="input-group-addon">
                                                         <i class="fa fa-calendar" aria-hidden="true"></i>
                                                     </span>
@@ -87,7 +90,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <div class='input-group date' id='datetimepicker1'>
-                                                    <input type='text' class="form-control" placeholder="Departure Date"/>
+                                                    <input type='text' class="form-control" placeholder="Data de volta"/>
                                                     <span class="input-group-addon">
                                                         <i class="fa fa-calendar" aria-hidden="true"></i>
                                                     </span>
@@ -99,18 +102,22 @@
                                         <div class="book_tabel_item">
                                             <div class="input-group">
                                                 <select class="wide">
-                                                    <option data-display="Adult">Adult</option>
-                                                    <option value="1">Old</option>
-                                                    <option value="2">Younger</option>
-                                                    <option value="3">Potato</option>
+                                                    <option data-display="Origem">Origem</option>
+                                                    <option value="1">Rio de Janeiro (GIG)</option>
+                                                    <option value="2">São Paulo (GRU)</option>
+                                                    <option value="3">Brasília (BSB)</option>
+                                                    <option value="4">Salvador (SSA)</option>
+                                                    <option value="5">Recife (REC)</option>
                                                 </select>
                                             </div>
                                             <div class="input-group">
                                                 <select class="wide">
-                                                    <option data-display="Child">Child</option>
-                                                    <option value="1">Child</option>
-                                                    <option value="2">Baby</option>
-                                                    <option value="3">Child</option>
+                                                    <option data-display="Destino">Destino</option>
+                                                    <option value="1">São Paulo (GRU)</option>
+                                                    <option value="2">Rio de Janeiro (GIG)</option>
+                                                    <option value="3">Salvador (SSA)</option>
+                                                    <option value="4">Lisboa (LIS)</option>
+                                                    <option value="5">Buenos Aires (EZE)</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -119,13 +126,23 @@
                                         <div class="book_tabel_item">
                                             <div class="input-group">
                                                 <select class="wide">
-                                                    <option data-display="Child">Number of Rooms</option>
-                                                    <option value="1">Room 01</option>
-                                                    <option value="2">Room 02</option>
-                                                    <option value="3">Room 03</option>
+                                                    <option data-display="Passageiros">Passageiros</option>
+                                                    <option value="1">1 Passageiro</option>
+                                                    <option value="2">2 Passageiros</option>
+                                                    <option value="3">3 Passageiros</option>
+                                                    <option value="4">4+ Passageiros</option>
                                                 </select>
                                             </div>
-                                            <a class="book_now_btn button_hover" href="#">Book Now</a>
+                                            <div class="input-group">
+                                                <select class="wide">
+                                                    <option data-display="Classe">Classe</option>
+                                                    <option value="1">Econômica</option>
+                                                    <option value="2">Premium Economy</option>
+                                                    <option value="3">Executiva</option>
+                                                    <option value="4">Primeira Classe</option>
+                                                </select>
+                                            </div>
+                                            <a class="book_now_btn button_hover" href="#" style="margin-top: 10px;">Buscar voos</a>
                                         </div>
                                     </div>
                                 </div>
@@ -141,48 +158,48 @@
         <section class="accomodation_area section_gap">
             <div class="container">
                 <div class="section_title text-center">
-                    <h2 class="title_color">Hotel Accomodation</h2>
-                    <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, </p>
+                    <h2 class="title_color">Ofertas de Passagens Aéreas</h2>
+                    <p>Confira os voos mais procurados pelos nossos viajantes e planeje sua viagem pelos melhores preços.</p>
                 </div>
                 <div class="row mb_30">
                     <div class="col-lg-3 col-sm-6">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
-                                <img src="image/room1.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                                <img src="image/room1.jpg" alt="passagem aérea promocional do Rio de Janeiro para São Paulo">
+                                <a href="#" class="btn theme_btn button_hover">Comprar Passagem</a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Double Deluxe Room</h4></a>
-                            <h5>$250<small>/night</small></h5>
+                            <a href="#"><h4 class="sec_h4">Rio de Janeiro (GIG) → São Paulo (GRU)</h4></a>
+                            <h5>R$ 299<small>/ trecho</small></h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
-                                <img src="image/room2.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                                <img src="image/room2.jpg" alt="passagem aérea promocional do Rio de Janeiro para Salvador">
+                                <a href="#" class="btn theme_btn button_hover">Comprar Passagem</a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Single Deluxe Room</h4></a>
-                            <h5>$200<small>/night</small></h5>
+                            <a href="#"><h4 class="sec_h4">Rio de Janeiro (GIG) → Salvador (SSA)</h4></a>
+                            <h5>R$ 459<small>/ trecho</small></h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
-                                <img src="image/room3.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                                <img src="image/room3.jpg" alt="passagem aérea internacional promocional do Rio de Janeiro para Buenos Aires">
+                                <a href="#" class="btn theme_btn button_hover">Comprar Passagem</a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Honeymoon Suit</h4></a>
-                            <h5>$750<small>/night</small></h5>
+                            <a href="#"><h4 class="sec_h4">Rio de Janeiro (GIG) → Buenos Aires (EZE)</h4></a>
+                            <h5>R$ 899<small>/ trecho</small></h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
-                                <img src="image/room4.jpg" alt="">
-                                <a href="#" class="btn theme_btn button_hover">Book Now</a>
+                                <img src="image/room4.jpg" alt="passagem aérea internacional promocional do Rio de Janeiro para Lisboa">
+                                <a href="#" class="btn theme_btn button_hover">Comprar Passagem</a>
                             </div>
-                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
-                            <h5>$200<small>/night</small></h5>
+                            <a href="#"><h4 class="sec_h4">Rio de Janeiro (GIG) → Lisboa (LIS)</h4></a>
+                            <h5>R$ 2.499<small>/ trecho</small></h5>
                         </div>
                     </div>
                 </div>
@@ -196,44 +213,44 @@
             </div>
             <div class="container">
                 <div class="section_title text-center">
-                    <h2 class="title_w">Royal Facilities</h2>
-                    <p>Who are in extremely love with eco friendly system.</p>
+                    <h2 class="title_w">Vantagens Royal Flights</h2>
+                    <p>Tudo o que você precisa para uma viagem de avião sem preocupações.</p>
                 </div>
                 <div class="row mb_30">
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-dinner"></i>Restaurant</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-dinner"></i>Voos Nacionais e Internacionais</h4>
+                            <p>Conectamos você com as principais cidades do Brasil e do mundo com rotas rápidas e diretas.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Sports CLub</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Comparação de Preços</h4>
+                            <p>Busque tarifas aéreas de múltiplas companhias de uma só vez e encontre o menor preço garantido.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>Swimming Pool</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>Promoções Relâmpago</h4>
+                            <p>Receba notificações instantâneas e aproveite os descontos mais quentes do mercado em tempo real.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-car"></i>Rent a Car</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-car"></i>Suporte ao Viajante 24h</h4>
+                            <p>Equipe especializada pronta para ajudar em qualquer etapa da sua jornada, do check-in às remarcações.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Gymnesium</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Compra 100% Segura</h4>
+                            <p>Transações criptografadas e ambiente seguro para você adquirir suas passagens com total tranquilidade.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-coffee-cup"></i>Bar</h4>
-                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-coffee-cup"></i>Cancelamento Facilitado</h4>
+                            <p>Opções de passagens flexíveis e reembolso descomplicado para você se planejar sem receios.</p>
                         </div>
                     </div>
                 </div>
@@ -247,13 +264,13 @@
                 <div class="row">
                     <div class="col-md-6 d_flex align-items-center">
                         <div class="about_content ">
-                            <h2 class="title title_color">About Us <br>Our History<br>Mission & Vision</h2>
-                            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-                            <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
+                            <h2 class="title title_color">Sobre Nós <br>Nossa História<br>Missão & Visão</h2>
+                            <p>Na Royal Flights, acreditamos que viajar transforma vidas. Desde a nossa fundação, nossa missão é democratizar o acesso às viagens de avião, oferecendo uma plataforma simples e rápida de busca e comparação de passagens. Queremos conectar você ao seu destino dos sonhos com confiança, segurança e sempre com o melhor custo-benefício.</p>
+                            <a href="#" class="button_hover theme_btn_two">Planejar Viagem</a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="image/about_bg.jpg" alt="img">
+                        <img class="img-fluid" src="image/about_bg.jpg" alt="Aeronave em voo no céu de fim de tarde">
                     </div>
                 </div>
             </div>
@@ -264,15 +281,15 @@
         <section class="testimonial_area section_gap">
             <div class="container">
                 <div class="section_title text-center">
-                    <h2 class="title_color">Testimonial from our Clients</h2>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from </p>
+                    <h2 class="title_color">Depoimentos dos Nossos Viajantes</h2>
+                    <p>Saiba o que dizem aqueles que já voaram mais longe economizando com a Royal Flights.</p>
                 </div>
                 <div class="testimonial_slider owl-carousel">
                     <div class="media testimonial_item">
-                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
+                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="viajante satisfeito Felipe Cardoso">
                         <div class="media-body">
-                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <p>"Consegui encontrar passagens de ida e volta para Lisboa pela metade do preço que vi em outros sites. O processo de compra foi muito simples e o suporte tirou todas as minhas dúvidas de check-in."</p>
+                            <a href="#"><h4 class="sec_h4">Felipe Cardoso</h4></a>
                             <div class="star">
                                 <a href="#"><i class="fa fa-star"></i></a>
                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -283,10 +300,10 @@
                         </div>
                     </div>    
                     <div class="media testimonial_item">
-                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
+                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="viajante satisfeita Mariana Souza">
                         <div class="media-body">
-                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <p>"Sempre uso a plataforma para planejar minhas férias em família. As tarifas de voos nacionais são as melhores, e a opção de cancelamento flexível me dá a tranquilidade de que preciso."</p>
+                            <a href="#"><h4 class="sec_h4">Mariana Souza</h4></a>
                             <div class="star">
                                 <a href="#"><i class="fa fa-star"></i></a>
                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -297,10 +314,10 @@
                         </div>
                     </div>
                     <div class="media testimonial_item">
-                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
+                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="viajante satisfeito Rodrigo Mello">
                         <div class="media-body">
-                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <p>"Excelente serviço! O alerta de passagens promocionais no e-mail me ajudou a comprar voos de última hora para Brasília para uma reunião de negócios sem estourar o orçamento corporativo."</p>
+                            <a href="#"><h4 class="sec_h4">Rodrigo Mello</h4></a>
                             <div class="star">
                                 <a href="#"><i class="fa fa-star"></i></a>
                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -311,10 +328,10 @@
                         </div>
                     </div>    
                     <div class="media testimonial_item">
-                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
+                        <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="viajante satisfeita Beatriz Antunes">
                         <div class="media-body">
-                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <p>"A experiência de voar com as companhias recomendadas pela Royal Flights foi fantástica. A plataforma cumpre o que promete: rapidez, preço baixo e muita segurança na transação."</p>
+                            <a href="#"><h4 class="sec_h4">Beatriz Antunes</h4></a>
                             <div class="star">
                                 <a href="#"><i class="fa fa-star"></i></a>
                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -333,55 +350,55 @@
         <section class="latest_blog_area section_gap">
             <div class="container">
                 <div class="section_title text-center">
-                    <h2 class="title_color">latest posts from blog</h2>
-                    <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from </p>
+                    <h2 class="title_color">Últimas Dicas de Viagem no Nosso Blog</h2>
+                    <p>Fique por dentro das melhores dicas para economizar e planejar suas próximas aventuras pelo mundo.</p>
                 </div>
                 <div class="row mb_30">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-recent-blog-post">
                             <div class="thumb">
-                                <img class="img-fluid" src="image/blog/blog-1.jpg" alt="post">
+                                <img class="img-fluid" src="image/blog/blog-1.jpg" alt="Dicas para encontrar passagens aéreas baratas">
                             </div>
                             <div class="details">
                                 <div class="tags">
-                                    <a href="#" class="button_hover tag_btn">Travel</a>
-                                    <a href="#" class="button_hover tag_btn">Life Style</a>
+                                    <a href="#" class="button_hover tag_btn">Dicas</a>
+                                    <a href="#" class="button_hover tag_btn">Economia</a>
                                 </div>
-                                <a href="#"><h4 class="sec_h4">Low Cost Advertising</h4></a>
-                                <p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.</p>
-                                <h6 class="date title_color">31st January,2018</h6>
+                                <a href="#"><h4 class="sec_h4">Como encontrar passagens aéreas mais baratas</h4></a>
+                                <p>Compilamos as melhores estratégias de antecedência, flexibilidade de datas e uso de alertas de tarifas para você economizar.</p>
+                                <h6 class="date title_color">31 de Maio, 2026</h6>
                             </div>	
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="single-recent-blog-post">
                             <div class="thumb">
-                                <img class="img-fluid" src="image/blog/blog-2.jpg" alt="post">
+                                <img class="img-fluid" src="image/blog/blog-2.jpg" alt="Destinos nacionais para viajar no fim de semana">
                             </div>
                             <div class="details">
                                 <div class="tags">
-                                    <a href="#" class="button_hover tag_btn">Travel</a>
-                                    <a href="#" class="button_hover tag_btn">Life Style</a>
+                                    <a href="#" class="button_hover tag_btn">Destinos</a>
+                                    <a href="#" class="button_hover tag_btn">Viagem Curta</a>
                                 </div>
-                                <a href="#"><h4 class="sec_h4">Creative Outdoor Ads</h4></a>
-                                <p>Self-doubt and fear interfere with our ability to achieve or set goals. Self-doubt and fear are</p>
-                                <h6 class="date title_color">31st January,2018</h6>
+                                <a href="#"><h4 class="sec_h4">Melhores destinos nacionais para viajar no fim de semana</h4></a>
+                                <p>Quer dar uma escapada rápida da rotina? Conheça cinco cidades brasileiras perfeitas para curtir um sábado e domingo.</p>
+                                <h6 class="date title_color">28 de Maio, 2026</h6>
                             </div>	
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="single-recent-blog-post">
                             <div class="thumb">
-                                <img class="img-fluid" src="image/blog/blog-3.jpg" alt="post">
+                                <img class="img-fluid" src="image/blog/blog-3.jpg" alt="Guia para compra de voos internacionais">
                             </div>
                             <div class="details">
                                 <div class="tags">
-                                    <a href="#" class="button_hover tag_btn">Travel</a>
-                                    <a href="#" class="button_hover tag_btn">Life Style</a>
+                                    <a href="#" class="button_hover tag_btn">Internacional</a>
+                                    <a href="#" class="button_hover tag_btn">Planejamento</a>
                                 </div>
-                                <a href="#"><h4 class="sec_h4">It S Classified How To Utilize Free</h4></a>
-                                <p>Why do you want to motivate yourself? Actually, just answering that question fully can </p>
-                                <h6 class="date title_color">31st January,2018</h6>
+                                <a href="#"><h4 class="sec_h4">O que você precisa saber antes de comprar um voo internacional</h4></a>
+                                <p>Passaporte, vistos, franquias de bagagem de mão e conexões. Preparamos um checklist essencial para sua viagem internacional.</p>
+                                <h6 class="date title_color">25 de Maio, 2026</h6>
                             </div>	
                         </div>
                     </div>
@@ -396,28 +413,26 @@
                 <div class="row">
                     <div class="col-lg-3  col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">About Agency</h6>
-                            <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
+                            <h6 class="footer_title">Sobre a Royal Flights</h6>
+                            <p>Sua plataforma confiável de busca e compra de passagens aéreas. Conectamos você aos destinos mais procurados do Brasil e do mundo com rapidez, segurança e sempre com o menor preço garantido.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h6 class="footer_title">Navigation Links</h6>
+                            <h6 class="footer_title">Links Úteis</h6>
                             <div class="row">
-                                <div class="col-4">
+                                <div class="col-6">
                                     <ul class="list_style">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Feature</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="accomodation.html">Passagens</a></li>
+                                        <li><a href="gallery.html">Destinos</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-6">
                                     <ul class="list_style">
-                                        <li><a href="#">Team</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="about.html">Sobre Nós</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contato</a></li>
                                     </ul>
                                 </div>										
                             </div>							
@@ -426,11 +441,11 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>		
+                            <p>Receba ofertas de passagens aéreas e promoções relâmpago diretamente no seu e-mail!</p>		
                             <div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                     <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <input name="EMAIL" placeholder="Endereço de E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Endereço de E-mail '" required="" type="email">
                                         <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>		
                                     </div>									
                                     <div class="mt-10 info"></div>
@@ -440,16 +455,16 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget instafeed">
-                            <h6 class="footer_title">InstaFeed</h6>
+                            <h6 class="footer_title">Feed do Instagram</h6>
                             <ul class="list_style instafeed d-flex flex-wrap">
-                                <li><img src="image/instagram/Image-01.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-02.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-03.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-04.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-05.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-06.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-07.jpg" alt=""></li>
-                                <li><img src="image/instagram/Image-08.jpg" alt=""></li>
+                                <li><img src="image/instagram/Image-01.jpg" alt="Destino promocional no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-02.jpg" alt="Destino de viagem no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-03.jpg" alt="Foto de voo no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-04.jpg" alt="Paisagem de viagem no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-05.jpg" alt="Dica de viagem no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-06.jpg" alt="Destino internacional no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-07.jpg" alt="Destino de praia no Feed do Instagram"></li>
+                                <li><img src="image/instagram/Image-08.jpg" alt="Viajante no Feed do Instagram"></li>
                             </ul>
                         </div>
                     </div>						
@@ -457,7 +472,7 @@
                 <div class="border_line"></div>
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
                     <p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Este template foi adaptado com <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     <div class="col-lg-4 col-sm-12 footer-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
