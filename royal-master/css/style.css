@@ -215,7 +215,7 @@ button:focus {
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   z-index: -1;
-  background: #f8b100;
+  background: #005fa3;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -278,7 +278,7 @@ button:focus {
 }
 
 .header-top a:hover {
-  color: #f3c300;
+  color: #005fa3;
 }
 
 .header-top ul {
@@ -349,7 +349,7 @@ button:focus {
 }
 
 .navbar .menu_nav .nav-item:hover .nav-link, .navbar .menu_nav .nav-item.active .nav-link {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .navbar .menu_nav .nav-item.submenu {
@@ -436,7 +436,7 @@ button:focus {
 
 .navbar .menu_nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: #f0f0f0;
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 @media (min-width: 992px) {
@@ -751,7 +751,7 @@ button:focus {
 }
 
 .blog_banner_two .bg-parallax {
-  background: url(../image/banner/banner-2.jpg) no-repeat scroll center top/cover;
+  background: url(../image/banner/Santorini_casais_Otimizada.jpg) no-repeat scroll center top/cover;
 }
 
 /*=============End Blog Banner css =============*/
@@ -794,7 +794,7 @@ button:focus {
 .accomodation_item h5 {
   font-size: 24px;
   line-height: 28px;
-  color: #52c5fd;
+  color: #005fa3;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -951,11 +951,11 @@ button:focus {
 }
 
 .testimonial_slider .testimonial_item .sec_h4:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .testimonial_slider .testimonial_item .star a {
-  color: #f3c300;
+  color: #0077cc;
   font-size: 14px;
 }
 
@@ -976,7 +976,7 @@ button:focus {
 }
 
 .testimonial_slider .owl-dots .owl-dot.active {
-  background: #f3c300;
+  background: #0077cc;
 }
 
 /*---------------------------------------------------- */
@@ -1009,7 +1009,7 @@ button:focus {
 }
 
 .single-recent-blog-post .details .sec_h4:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .single-recent-blog-post .date {
@@ -1036,7 +1036,7 @@ button:focus {
 }
 
 .tags .tag_btn:before {
-  background: #f3c300;
+  background: #0077cc;
 }
 
 .tags .tag_btn + .tag_btn {
@@ -1102,7 +1102,7 @@ button:focus {
 }
 
 .categories_post:hover .categories_details {
-  background: rgba(248, 182, 0, 0.85);
+  background: rgba(82, 197, 253, 0.85);
 }
 
 /*============ blog_left_sidebar css ==============*/
@@ -1129,7 +1129,7 @@ button:focus {
 }
 
 .blog_info .post_tag a:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .blog_info .blog_meta li a {
@@ -1150,7 +1150,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .blog_post img {
@@ -1172,7 +1172,7 @@ button:focus {
 }
 
 .blog_details h2:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .blog_details p {
@@ -1197,7 +1197,7 @@ button:focus {
 .blog_right_sidebar .widget_title {
   font-size: 18px;
   line-height: 25px;
-  background: #f3c300;
+  background: #0077cc;
   text-align: center;
   color: #fff;
   padding: 8px 0px;
@@ -1214,7 +1214,7 @@ button:focus {
   padding-left: 20px;
   border-radius: 45px;
   z-index: 0;
-  background: #f3c300;
+  background: #0077cc;
 }
 
 .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
@@ -1287,7 +1287,7 @@ button:focus {
 }
 
 .blog_right_sidebar .author_widget .social_icon a:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
@@ -1310,7 +1310,7 @@ button:focus {
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
@@ -1346,11 +1346,11 @@ button:focus {
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover {
-  border-color: #52c5fd;
+  border-color: #005fa3;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover a {
-  color: #52c5fd;
+  color: #005fa3;
 }
 
 .blog_right_sidebar .newsletter_widget {
@@ -1407,7 +1407,7 @@ button:focus {
 }
 
 .blog_right_sidebar .newsletter_widget .bbtns {
-  background: #f8b600;
+  background: #0077cc;
   color: #fff;
   font-size: 12px;
   line-height: 38px;
@@ -1439,7 +1439,7 @@ button:focus {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #f3c300;
+  background: #005fa3;
   color: #fff;
 }
 
@@ -1469,7 +1469,7 @@ button:focus {
 }
 
 .blog-pagination .page-item.active .page-link {
-  background-color: #f3c300;
+  background-color: #0077cc;
   border-color: transparent;
   color: #fff;
 }
@@ -1496,7 +1496,7 @@ button:focus {
 .blog-pagination .page-link:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #f3c300;
+  background-color: #005fa3;
   border-color: #eee;
 }
 
@@ -1736,7 +1736,7 @@ button:focus {
 }
 
 .comments-area .btn-reply:hover {
-  background-color: #f3c300;
+  background-color: #005fa3;
   color: #fff;
 }
 
@@ -1829,7 +1829,7 @@ button:focus {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  background: #f8b600;
+  background: #0077cc;
   display: inline-block;
   padding: 7px 44px;
   -webkit-transition: all 0.2s linear;
@@ -1838,11 +1838,11 @@ button:focus {
 }
 
 .comment-form .primary-btn:before {
-  background: #f3c300;
+  background: #005fa3;
 }
 
 .comment-form .primary-btn:hover {
-  border-color: #f3c300 !important;
+  border-color: #005fa3  !important;
   color: #fff  !important;
 }
 
@@ -1866,7 +1866,7 @@ button:focus {
   top: 0;
   font-size: 20px;
   line-height: 24px;
-  color: #f3c300;
+  color: #0077cc ;
   font-weight: 600;
 }
 
@@ -2082,7 +2082,7 @@ button:focus {
 }
 
 .primary {
-  background: #52c5fd;
+  background: #005fa3;
 }
 
 .primary:before {
@@ -2123,12 +2123,12 @@ button:focus {
 
 .primary-border {
   background: transparent;
-  border: 1px solid #52c5fd;
-  color: #52c5fd;
+  border: 1px solid #005fa3;
+  color: #005fa3;
 }
 
 .primary-border:before {
-  background: #52c5fd;
+  background: #005fa3;
 }
 
 .success-border {
@@ -3492,7 +3492,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-footer-widget ul li a:hover {
-  color: #f3c300;
+  color: #005fa3 ;
 }
 
 .single-footer-widget .instafeed {
@@ -3545,7 +3545,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-footer-widget .sub-btn {
-  background: #f3c300;
+  background: #0077cc ;
   color: #fff;
   font-weight: 300;
   border-radius: 0;
@@ -3578,7 +3578,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-bottom .footer-text a {
-  color: #f3c300;
+  color: #0077cc ;
 }
 
 .footer-bottom .footer-social {
@@ -3596,7 +3596,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-bottom .footer-social a:hover {
-  color: #f3c300;
+  color: #005fa3 ;
 }
 
 /*---------------------------------------------------- */
@@ -3629,7 +3629,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .navbar-brand.logo_h:hover {
-  color: #0077cc !important;
+  color: #005fa3 !important;
 }
 .navbar-brand.logo_h .brand-icon {
   font-size: 24px;
@@ -3724,7 +3724,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- Blog: links e datas em azul --- */
 .blog_item .blog_details a:hover {
-  color: #0077cc;
+  color: #005fa3;
 }
 .blog_item .blog_details .date {
   color: #0077cc;
