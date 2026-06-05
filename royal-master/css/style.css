@@ -3724,7 +3724,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- Blog: links e datas em azul --- */
 .blog_item .blog_details a:hover {
-  color: #005fa3;
+  color: #222222;
 }
 .blog_item .blog_details .date {
   color: #0077cc;
